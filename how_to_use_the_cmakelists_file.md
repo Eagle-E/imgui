@@ -1,6 +1,6 @@
 CMakeLists file to create a library out of imgui to be added to a cpp project.
 
-Modify identifiers to suit your needs as necessary.
+Modify identifiers to suit your needs as necessary. If you're using a different backend than opengl&glfw, change the paths in the CMakeLists.txt file to that of the needed backend implementations.
 
 Clone this repo to a subfolder called "external" and include/link imgui into your project with:
 ```cmake
